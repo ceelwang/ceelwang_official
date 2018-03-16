@@ -53,6 +53,7 @@
 /*==============================================
  Pre Loader
  ===============================================*/
+
 #tb-preloader {
     position: fixed;
     z-index: 999999;
@@ -68,10 +69,11 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 60px;
-    height: 60px;
-    margin: -30px 0 0 -30px;
+    width: 100px;
+    height: 100px;
+    margin: -30px 0 0 -30px; 
 }
+
 
 .tb-preloader-wave:before,
 .tb-preloader-wave:after {
