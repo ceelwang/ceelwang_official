@@ -49,20 +49,26 @@
     <div class="wrapper">
 
         <!--header start-->
-        <header class="l-header">
+         <header class="l-header">
 
-            <div class="l-navbar l-navbar_expand l-navbar_t-light l-navbar_s-center js-navbar-sticky">
-                <div class="container">
+            <div class="l-navbar l-navbar_t-light l-navbar_expand js-navbar-sticky">
+                <div class="container-fluid">
+                    <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
 
                         <!--logo start-->
                         <a href="index.html" class="logo-brand">
-                            <img class="retina" src="assets/img/logo.png" alt="Ceel">
+                            <img class="retina" src="assets/img/logo.png" alt="Massive">
                         </a>
-
                         <!--logo end-->
-                    
-                        
 
+                        <!-- menu start-->
+                        <ul class="menuzord-menu menuzord-right c-nav_s-standard">
+                            <li><a href="resume.html">Resume</a>
+                                    </li>
+                       </ul>
+                        <!-- menu end-->
+
+                    </nav>
                 </div>
             </div>
 
@@ -89,7 +95,20 @@
         <div class="m-top-50"></div>
         <!--body content start-->
         <section class="body-content">
-
+            <!--<div class="text-center">
+                <ul class="portfolio-filter">
+                    <li class="active"><a href="#" data-filter="*">all</a>
+                    </li>
+                    <li><a href="#" data-filter=".cat1">UIUX</a>
+                    </li>
+                    <li><a href="#" data-filter=".cat2">Graphic</a>
+                    </li>
+                    <li><a href="#" data-filter=".cat3">Animation</a>
+                    </li>
+                    <li><a href="#" data-filter=".cat4">illustration</a>
+                    </li>
+                </ul>
+            </div>-->
 
 
             <!--portfolio-->
@@ -97,25 +116,18 @@
                 <div class="row ">
                     <div class="col-md-12">
 
-                        <!--<div class="text-center m-top-50 inline-block">-->
-                        <!--<ul class="portfolio-filter">-->
-                        <!--<li class="active"><a href="#" data-filter="*"> All</a></li>-->
-                        <!--<li><a href="#" data-filter=".cat1">printing</a></li>-->
-                        <!--<li><a href="#" data-filter=".cat2">Web</a></li>-->
-                        <!--<li><a href="#" data-filter=".cat3">illustration</a></li>-->
-                        <!--<li><a href="#" data-filter=".cat4">media</a></li>-->
-                        <!--<li><a href="#" data-filter=".cat5">crafts</a></li>-->
-                        <!--</ul>-->
-                        <!--</div>-->
+                        <div class="text-center m-top-50 inline-block">
+                        <ul class="portfolio-filter">
+                        <li class="active"><a href="#" data-filter="*"> All</a></li>
+                        <li><a href="#" data-filter=".cat1">UIUX</a></li>
+                        <li><a href="#" data-filter=".cat2">Graphic</a></li>
+                        <li><a href="#" data-filter=".cat3">Animation</a></li>
+                        <li><a href="#" data-filter=".cat4">Illustration</a></li>
+                        </ul>
+                        </div>
 
-
-                        
-<!--                         <div class="heading-title-alt text-left">
-                            <h1 class="text-uppercase">Graphic</h1>   
-                            </div>
- -->
                         <div class="portfolio portfolio-with-title col-3 gutter- ">
-                            <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat1">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/01.gif" alt="">
                                     <div class="portfolio-hover">
@@ -131,7 +143,7 @@
                                 <h6 class="theme-color">#UIUX #BRANDING</h6>
                             </div>
 
-                             <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat1 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/02.gif" alt="">
                                     <div class="portfolio-hover">
@@ -146,7 +158,7 @@
                                 </div>
                                 <h6 class="theme-color">#UIUX</h6>
                             </div>
-                         <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat2 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/03.gif" alt="">
                                     <div class="portfolio-hover">
@@ -161,8 +173,7 @@
                                 </div>
                                 <h6 class="theme-color">#GRAPHIC #GIF #PS #AI</h6>
                             </div>
-
-                            <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat2 cat4 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/04.jpg" alt="">
                                     <div class="portfolio-hover">
@@ -177,7 +188,7 @@
                                 </div>
                                 <h6 class="theme-color">#GRAPHIC #LAYOUT #ILLUSTRATION</h6>
                             </div>
-                            <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat2 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/05.jpg" alt="">
                                     <div class="portfolio-hover">
@@ -193,16 +204,14 @@
                                 <h6 class="theme-color">#GRAPHIC #CI #LOGO</h6>
                             </div>
                             
-                            </div>
                         
 <!--                         <div class="heading-title-alt text-left">
                             <h1 class="text-uppercase">Animation</h1>   
                             </div>
  -->
-                        <div class="portfolio portfolio-with-title col-3 gutter- ">
 
 
-                             <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat3 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/07.gif" alt="">
                                     <div class="portfolio-hover">
@@ -218,7 +227,7 @@
                                 <h6 class="theme-color">#ANIMATION #AE</h6>
                             </div>
 
-                         <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat3 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/08.gif" alt="">
                                     <div class="portfolio-hover">
@@ -250,15 +259,12 @@
                                 <h6 class="theme-color">#ANIMATION #PS #GIF</h6>
                             </div>
 
-                        </div>
-                        
 <!--                         <div class="heading-title-alt text-left">
                             <h1 class="text-uppercase">Illustration</h1>   
                             </div>
  -->
-                        <div class="portfolio portfolio-with-title col-3 gutter- ">
 
-                            <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat4 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/10.jpg" alt="">
                                     <div class="portfolio-hover">
@@ -274,7 +280,7 @@
                                 <h6 class="theme-color">#ILLUSTRATION #POSTCARD #PS</h6>
                             </div>
 
-                             <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat4 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/11.gif" alt="">
                                     <div class="portfolio-hover">
@@ -291,7 +297,7 @@
 
                             </div>
 
-                         <div class="portfolio-item cat3 ">
+                            <div class="portfolio-item cat4 ">
                                 <div class="thumb">
                                     <img src="assets/img/portfolio/12.gif" alt="">
                                     <div class="portfolio-hover">
@@ -308,16 +314,7 @@
 
                             </div>
                         </div>
-<!--                         <div class="heading-title-alt text-left">
-                            <h1 class="text-uppercase">UI/UX</h1>   
-                            </div>
- -->
-                        <div class="portfolio portfolio-with-title col-3 gutter- ">
                            
-
-                  
-                        </div>
-
 
                     </div>
                 </div>
@@ -340,7 +337,7 @@
                 <div class="col-md-6">
                     
                     <div class="copyright-sub-title text-uppercase">
-                        meterty@gmail.com<br>
+                        ceelwang@gmail.com<br>
                         
                     </div>
                     <div class="copyright">
